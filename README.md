@@ -43,3 +43,29 @@ https://snack.expo.io/@nature0219/cloneproject_rn
 npm start --reset-cache //메트로 서버 캐시 초기화
 ```
 
+### Uninstalling npm packeage 
+
+```bash
+# using npm install <package-name> in the node_modules folder, run
+npm uninstall <package-name>
+
+```
+
+If the package was a development dependency, listed in the devDependencies of the `package.json` file, you must use the `-D` / `--save-dev` flag to remove it from the file:
+
+```bash
+npm uninstall -S <package-name>
+npm uninstall -D <package-name>
+```
+
+If the package is installed **globally**, you need to add the `-g` / `--global` flag:
+
+```bash
+npm uninstall -g <package-name>
+```
+
+for example:
+
+```bash
+npm uninstall -g webpack
+```
