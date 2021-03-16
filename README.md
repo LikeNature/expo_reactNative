@@ -1,5 +1,4 @@
-### 2021.03.14. Clone Project UI 확인 및 구현
-### 2021.03.15. In Expo, RN Build
+### ~2021.03.15. Clone Project 메인화면 구현, Expo에서 RN Build test
 
 # React-Native in Expo
 
