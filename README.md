@@ -33,3 +33,13 @@ cd AwesomeProject
 npm start # you can also use: expo start
 ```
 
+### 어플리케이션 확인
+
+https://snack.expo.io/@nature0219/cloneproject_rn
+
+### React-Native 초기화
+
+```bash
+npm start --reset-cache //메트로 서버 캐시 초기화
+```
+
